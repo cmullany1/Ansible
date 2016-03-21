@@ -1,7 +1,0 @@
----
-		
-- hosts: {{ inventory_hostname }}
-  remote_user: hmcadmin
-  tasks:
-  - name: Get CDP neighbor
-    command: cdp neig
