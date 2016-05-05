@@ -3,4 +3,4 @@
   gather_facts: no
   tasks:
   - name: Get CDP neighbor
-    command: cdp neig
+    command: sh cdp neig
